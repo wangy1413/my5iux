@@ -31,104 +31,10 @@
 <body>
     <!--视频头部背景-->
     <div class="banner-video">
-        <!--视频来自阿里云首页，有需要请自行更换-->
-       <!-- <video autoplay loop muted>
-            <source src="https://cdn.jsdelivr.net/gh/5iux/uploads/pic/3840-banner.mp4" type="video/mp4">
-        </video> -->
-        <!--注释掉图片可换成视频版本-->
-        <img src="./bacImg.gif" alt="">
+        <img src="./bacImg1.gif" alt="">
         <div class="bottom-cover" style="background-image: linear-gradient(rgba(255, 255, 255, 0) 0%, rgb(244 248 251 / 0.6) 50%, rgb(244 248 251) 100%);"></div>
     </div>
-    <!--topbar开始-->
-    <style>
-        .navbar-toggler svg {
-            width: 24px;
-            height: 24px;
-        }
-        
-        .navbar-toggler .bi-list-nested {
-            display: none;
-        }
-        
-        .navbar-toggler.collapsed .bi-list-nested {
-            display: block;
-        }
-        
-        .navbar-toggler.collapsed .bi-x {
-            display: none;
-        }
-        
-        .navbar-toggler .bi-x {
-            display: block;
-        }
-    </style>
-    <!-- <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="position: absolute; z-index: 10000;">
-        <a class="navbar-brand" href="/"><img src="https://cdn.jsdelivr.net/gh/5iux/uploads/pic/20200424logo4.svg" height="35" style=" margin-left: -40px;" alt=""></a>
-        <button class="navbar-toggler collapsed" style="border: none; outline: none;" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" class="bi bi-list-nested" fill="currentColor" id="list-nested">
-                <path fill-rule="evenodd" d="M4.5 11.5A.5.5 0 015 11h10a.5.5 0 010 1H5a.5.5 0 01-.5-.5zm-2-4A.5.5 0 013 7h10a.5.5 0 010 1H3a.5.5 0 01-.5-.5zm-2-4A.5.5 0 011 3h10a.5.5 0 010 1H1a.5.5 0 01-.5-.5z"></path>
-            </svg><span>
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" class="bi bi-x" fill="currentColor" id="x">
-                    <path fill-rule="evenodd" d="M11.854 4.146a.5.5 0 010 .708l-7 7a.5.5 0 01-.708-.708l7-7a.5.5 0 01.708 0z"></path>
-                    <path fill-rule="evenodd" d="M4.146 4.146a.5.5 0 000 .708l7 7a.5.5 0 00.708-.708l-7-7a.5.5 0 00-.708 0z"></path>
-                </svg><span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarsExample05">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="https://blog.5iux.cn" target="_blant">博客</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="https://dyartstyle.com" target="_blant">DY点线面</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="https://hao.5iux.cn/" target="_blant">设计导航</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./ip" target="_blant">IP查询</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="https://5iux.cn/news" target="_blant">头条</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="https://github.com/5iux/5iux.github.io" target="_blant">Github</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="https://blog.5iux.cn/about" target="_blant">About</a>
-                </li>
-            </ul>
-            <style>
-                #he-plugin-simple {
-                    z-index: 1000;
-                }
-            </style>
-            <div id="he-plugin-simple"></div>
-            <script>
-                WIDGET = {
-                    CONFIG: {
-                        "modules": "01234",
-                        "background": 5,
-                        "tmpColor": "4A4A4A",
-                        "tmpSize": 14,
-                        "cityColor": "4A4A4A",
-                        "citySize": 14,
-                        "aqiSize": 14,
-                        "weatherIconSize": 22,
-                        "alertIconSize": 16,
-                        "padding": "8px 8px 8px 8px",
-                        "shadow": "1",
-                        "language": "auto",
-                        "borderRadius": 5,
-                        "fixed": "false",
-                        "vertical": "middle",
-                        "horizontal": "center",
-                        "key": "acd0fdcab4b9481a98d0f59145420fac"
-                    }
-                }
-            </script>
-            <script src="https://widget.heweather.net/simple/static/js/he-simple-common.js?v=1.1"></script>
-        </div>
-    </nav> -->
+    
     <!--topbar结束-->
     <div class="container" style="padding-top: 100px; position: relative; z-index: 100;">
         <!--搜索开始-->
@@ -136,10 +42,9 @@
             <div id="search-list" class="hide-type-list">
                 <div class="search-group group-a s-current" style="padding-left: 20px">
                     <ul class="search-type">
-                        <li><input checked="" hidden="" type="radio" name="type" id="type-baidu" value="https://www.baidu.com/s?wd=" data-placeholder="百度一下"><label for="type-baidu"><span style="color:#2100E0">百度</span></label></li>
-                        <li><input hidden="" type="radio" name="type" id="type-google" value="https://www.google.com.hk/search?hl=zh-CN&q=" data-placeholder="谷歌搜索"><label for="type-google"><span style="color:#3B83FA">G</span><span style="color:#F3442C">o</span><span style="color:#FFC300">o</span><span style="color:#4696F8">g</span><span style="color:#2CAB4E">l</span><span style="color:#F54231">e</span></label></li>
-						<li><input hidden="" type="radio" name="type" id="type-bing" value="https://cn.bing.com/search?q=" data-placeholder="必应搜索"><label for="type-bing"><span style="color:#0000FF">必应</span></label></li>
-                        <li><input hidden="" type="radio" name="type" id="type-cupfox" value="https://www.cupfox.com/search?key=" data-placeholder="电影、剧集、综艺、动漫"><label for="type-cupfox"><span style="color:#0000FF">影视</span></label></li>
+                        <li><input checked="" hidden="" type="radio" name="type" id="type-baidu" value="https://www.baidu.com/s?wd=" data-placeholder="百度一下"><label for="type-baidu"><span style="color:#0066CC">百度</span></label></li>
+						<li><input hidden="" type="radio" name="type" id="type-bing" value="https://cn.bing.com/search?q=" data-placeholder="Bing搜索"><label for="type-bing"><span style="color:#0b867e">必应</span></label></li>
+                        <li><input hidden="" type="radio" name="type" id="type-cupfox" value="https://www.cupfox.com/search?key=" data-placeholder="电影、剧集、综艺、动漫"><label for="type-cupfox"><span style="color:#FF7E00">影视</span></label></li>
                     </ul>
                 </div>
             </div>
