@@ -60,7 +60,8 @@ svg.icon { width: 14px; height: 14px; margin: 0 5px 0 8px; vertical-align: -0.15
     width: 100%;
     overflow: hidden;
     left: 0; top:0;
-    max-height: 750px;
+    height: 750px;
+    background-color: rgba(0, 157, 255, 0.8);
 }
 .banner-video video{width:2048px; float:left; }
 .banner-video img{width:1920px; float:left; }
